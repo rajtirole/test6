@@ -1,0 +1,26 @@
+credentials:
+  system:
+    domainCredentials:
+      - credentials:
+          - usernamePassword:
+              id: "hbjgfvgbh"
+              description: "test12"
+              username: "dfgbhnjmk"
+              password: "bgcvfcdxsxfcgvhbjn"
+              scope: GLOBAL
+          - string:
+                  scope: GLOBAL
+                  id: "casc_reload_token"
+                  secret: "117f3bd4d3fe27bf197be96104c86f4afe"
+                  description: "Jenkins Casc Reload Token"
+
+          - basicSSHUserPrivateKey:
+              scope: GLOBAL
+              id: "jenkins_sshkrishna_slave_do_165"
+              username: "AyushWahane"
+              passphrase:  ""
+              description: "git ssh private key"
+              privateKeySource:
+                directEntry:
+                  privateKey: ${{ secrets.GH_CONFIG_GH }}
+
