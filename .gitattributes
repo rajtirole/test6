@@ -1,2 +1,3 @@
 new.txt filter=git-crypt diff=git-crypt
 neww.txt filter=git-crypt diff=git-crypt
+jenkins.yaml filter=git-crypt diff=git-crypt
